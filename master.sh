@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #Tested on Ubuntu 18.04.5
-version=1.18.1
+version=1.18.1 # Kubernetes Version
 
 #### Ask the user admin ####
 while :
