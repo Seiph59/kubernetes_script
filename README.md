@@ -1,4 +1,4 @@
-# kubernetes_script
+# kubernetes script
 
 Script to automate kubernetes cluster installation on Ubuntu 18.04.5-server
 
@@ -12,4 +12,8 @@ Script to automate kubernetes cluster installation on Ubuntu 18.04.5-server
 
 ## Once the script is over
 * Do not forget to log out for kubectl completion
+
+## Worker Node
+* Launch **sudo ./worker.sh** on the future worker-node
+
 
