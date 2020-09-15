@@ -51,3 +51,11 @@ apt-get install -y kubeadm=$version-00 kubelet=$version-00 kubectl=$version-00
 
 # Mark these 3 new packages
 apt-mark hold kubelet kubeadm kubectl
+
+# Launch and set autostart to Docker
+systemctl start docker.service
+systemctl enable docker.service
+
+# Turn off the swap
+swapoff -a
+sed -i 's/^\/swap*/\#\/swap/' /etc/fstab
