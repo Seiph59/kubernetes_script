@@ -16,4 +16,6 @@ Script to automate kubernetes cluster installation on Ubuntu 18.04.5-server
 ## Worker Node
 * Launch **sudo ./worker.sh** on the future worker-node
 
-
+## For HA solution with multiple masters
+* here is the script to install alternatives masters
+* launch **sudo ./alt-master.sh** on the others master nodes
